@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Pricing = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
@@ -43,7 +45,7 @@ const Pricing = () => {
 
       <div className="text-center mt-10">
         <p className="text-sm text-gray-500">
-          All prices exclude VAT. Want a custom quote? <a href="/contact" className="text-blue-600 underline">Contact us</a>.
+          All prices exclude VAT. Want a custom quote? <Link href="/contact" className="text-blue-600 underline">Contact us</Link>.
         </p>
       </div>
     </div>
